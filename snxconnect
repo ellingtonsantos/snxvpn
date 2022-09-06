@@ -26,8 +26,8 @@ from argparse          import ArgumentParser
 from netrc             import netrc, NetrcParseError
 from struct            import pack, unpack
 from subprocess        import Popen, PIPE
-from snxvpnversion     import VERSION
 
+VERSION = "1.5.2"
 CHALLENGE_MAX_COUNT = 5
 
 """ Todo:
