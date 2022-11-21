@@ -2,7 +2,7 @@
 pkgname=snxconnect
 pkgver=0.1
 pkgrel=1
-arch=(any)
+arch=(x86_64)
 depends=(snx python-beautifulsoup4 python-lxml python-rsa)
 source=("snxconnect")
 md5sums=("bc98c000dd7286eb7061935865485377")
